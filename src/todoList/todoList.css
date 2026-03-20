@@ -1,0 +1,9 @@
+.todoList {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-color: #ffffff;
+    border-width: 0.5rem;
+    border-style: solid;
+    padding: 10px;
+}
