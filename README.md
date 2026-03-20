@@ -4,8 +4,7 @@
 
 This project is a react based app, that consist of a todo list.
 
-## Fonctionnalities
-
+## Functionalities
 
 - Lorsque j'arrive sur l'application, je peux choisir de charger le backup (fichier JSON) ou de repartir de zéro. En option, une confirmation utilisateur est demandée pour le reset.
 - Par défaut, je suis en mode Tache et je vois toutes les Taches non terminées ("filtre actif par défaut" = tache.etat ne se trouve pas dans ETAT_TERMINE). Je vois les Taches en cours, avec les 2 premières catégories (mode simple), triées par date d'échéance décroissante.
@@ -24,4 +23,34 @@ Proposition de WireFrame :
 Précisions :
 
 - Si on relance l'application, on perd nos modifications en cours => c'est normal !!
-- Chaque composant est dans un fichier avec son nom ; si j'ai du CSS à part, je mets les 2 dans un dossier au nom du composant
+- Chaque composant est dans un fichier avec son nom ; si j'ai du CSS à part, je mets les 2 dans un dossier au nom du composant.
+
+## Available Scripts
+
+> **NOTE**
+> See the file start_note.md for more information
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
