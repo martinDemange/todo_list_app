@@ -28,7 +28,8 @@ Précisions :
 ## Available Scripts
 
 > **NOTE**
-> See the file start_note.md for more information
+> See the file start_note.md for more information.
+
 In the project directory, you can run:
 
 ### `npm start`
