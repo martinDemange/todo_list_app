@@ -14,7 +14,7 @@ function TodoList() {
 
 function Header() {
   return (
-    <div>
+    <div className="todoListHeader">
         <h1>Todo List</h1>
     </div>
   );
@@ -22,8 +22,8 @@ function Header() {
 
 function Footer() {
     return(
-        <div>
-            <p>© 2025 My Todo List App</p>
+        <div className="todoListFooter">
+            <p>© 2025 My TodoList App</p>
         </div>
     )
 }

@@ -7,3 +7,13 @@
     border-style: solid;
     padding: 10px;
 }
+
+.todoListHeader {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.todoListFooter {
+    text-align: center;
+    font-size: 0.8rem;
+}
