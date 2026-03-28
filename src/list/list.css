@@ -1,2 +1,4 @@
 .taskList {
+    list-style-type: none;
+    margin-top: 1rem;
 }

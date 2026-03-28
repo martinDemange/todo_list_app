@@ -1,5 +1,10 @@
 .task {
     border-radius: 0.2rem;
     border: solid;
-    padding: 1rem;
+    padding-left: 1rem;
+    max-width: 50vi;
+
+}
+.taskDesc {
+    padding-left: 1rem;
 }

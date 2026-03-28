@@ -32,7 +32,8 @@ function GetData() {
       {data.tasks.map(task =>(
         <li key={task.id} className="task">
           <h2>{task.title}</h2>
-          <p>{task.description}</p>
+          <h3>Description</h3>
+          <p className="taskDesc">{task.description}</p>
           <p>Creation : {task.date_creation}</p>
           <p>Echeance : {task.date_echeance}</p>
           <p>Etat : {task.etat}</p>
