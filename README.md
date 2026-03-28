@@ -2,7 +2,8 @@
 
 ## Presentation
 
-This project is a react based app, that consist of a todo list.
+This project is a REACT based app, that consist of a todo list.<br/>
+For using this app, refere to the section **Available Scripts**.
 
 ## Functionalities
 
@@ -37,8 +38,8 @@ Précisions :
 
 ## Available Scripts
 
-> **NOTE**
-> See the file start_note.md for more information.
+> **NOTE :**<br/>
+> See the file [start_note.md](./start_note.md) for more information.
 
 In the project directory, you can run:
 
