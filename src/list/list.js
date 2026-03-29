@@ -43,6 +43,11 @@ function GetData() {
     )
 }
 
+/**
+ * A component that fetches categories from `data.jon` file and displays them in a list.
+ * @returns {JSX.Element}
+ * @constructor
+ */
 function GetCategory() {
   let data = useContext(DataContext);
   return (
